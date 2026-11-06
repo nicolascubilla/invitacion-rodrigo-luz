@@ -125,11 +125,44 @@
         </div>
       </section>
 
+      <section class="gifts section reveal" id="regalos" aria-labelledby="gifts-title">
+        <div class="section-heading">
+          <p class="section-kicker">Un detalle con cariño</p>
+          <h2 id="gifts-title">Caja de regalos</h2>
+          <p class="heading-note">Su presencia es nuestro regalo más especial. Pero si desean tener un detalle con nosotros, les dejamos esta pequeña opción con mucho cariño.</p>
+        </div>
+        <button class="gift-box" type="button" data-gift-open aria-controls="gift-modal" aria-label="Abrir caja de regalos">
+          <span class="gift-box__sparkle gift-box__sparkle--one" aria-hidden="true">✦</span>
+          <span class="gift-box__sparkle gift-box__sparkle--two" aria-hidden="true">✧</span>
+          <span class="gift-box__flower gift-box__flower--one" aria-hidden="true">✿</span>
+          <span class="gift-box__flower gift-box__flower--two" aria-hidden="true">❀</span>
+          <span class="gift-box__petal gift-box__petal--one" aria-hidden="true"></span>
+          <span class="gift-box__petal gift-box__petal--two" aria-hidden="true"></span>
+          <span class="gift-box__petal gift-box__petal--three" aria-hidden="true"></span>
+          <span class="gift-box__lid" aria-hidden="true"><span class="gift-box__ribbon"></span></span>
+          <span class="gift-box__body" aria-hidden="true"><span class="gift-box__ribbon"></span></span>
+          <span class="gift-box__bow" aria-hidden="true"><i></i><b></b><i></i></span>
+        </button>
+        <p class="gift-instruction">Tocá el regalo para abrirlo</p>
+      </section>
+
       <section class="closing section reveal"><div class="closing__line"></div><p class="script">¡Te esperamos!</p><h2>para celebrar<br>nuestro amor</h2><div class="closing__mark" aria-hidden="true">❦</div><p class="closing__signature">Con cariño,<br><strong>Rodrigo &amp; Luz</strong></p></section>
     </main>
     <footer><p>Francisco Rodrigo Aquino <span>·</span> Luz Mabel Cubilla</p><a href="#inicio">volver arriba ↑</a></footer>
   </div>
   <button class="music-toggle" type="button" data-music-toggle aria-label="Activar música" aria-pressed="false"><span class="music-bars" aria-hidden="true"><i></i><i></i><i></i></span><span data-music-label>Música</span></button>
   <audio data-audio preload="none" loop></audio>
+  <div class="gift-modal" id="gift-modal" data-gift-modal role="dialog" aria-modal="true" aria-labelledby="gift-modal-title" aria-describedby="gift-modal-description" hidden>
+    <div class="gift-modal__backdrop" data-gift-close></div>
+    <div class="gift-modal__card" role="document">
+      <button class="gift-modal__close" type="button" data-gift-close aria-label="Cerrar caja de regalos">×</button>
+      <p class="section-kicker">Un detalle con cariño</p>
+      <h2 id="gift-modal-title">Caja de regalos</h2>
+      <p class="gift-modal__subtitle">Gracias por acompañarnos en este día tan especial.</p>
+      <img class="gift-modal__qr" src="assets/images/qr-regalos.png" alt="Código QR con los datos de la cuenta para regalos">
+      <p id="gift-modal-description">Podés escanear este código para conocer los datos de nuestra cuenta.</p>
+      <a class="button button--primary gift-modal__download" href="assets/images/qr-regalos.png" download="qr-regalos.png">Guardar QR</a>
+    </div>
+  </div>
 </body>
 </html>
