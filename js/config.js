@@ -5,5 +5,5 @@ window.WEDDING_CONFIG = {
   whatsapp: { number: '595994964212', message: '¡Hola! Confirmo mi asistencia a la boda de Francisco Rodrigo Aquino y Luz Mabel Cubilla, el domingo 15 de noviembre de 2026. ¡Muchas gracias!' },
   video: { number: '595984564228', message: '¡Hola! Quiero compartir un video especial para Rodrigo y Luz con mis mejores deseos para su boda. ❤️' },
   music: { enabled: true, source: 'assets/audio/que-te-quiero.mp3', label: 'Que Te Quiero · Rabito' },
-  experience: { autoScrollSpeed: 30, openingDuration: 3000 }
+  experience: { autoScrollSpeed: 35, openingDuration: 3000 }
 };
