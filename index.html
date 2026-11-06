@@ -159,9 +159,15 @@
       <p class="section-kicker">Un detalle con cariño</p>
       <h2 id="gift-modal-title">Caja de regalos</h2>
       <p class="gift-modal__subtitle">Gracias por acompañarnos en este día tan especial.</p>
-      <img class="gift-modal__qr" src="assets/images/qr-regalos.png" alt="Código QR con los datos de la cuenta para regalos">
-      <p id="gift-modal-description">Podés escanear este código para conocer los datos de nuestra cuenta.</p>
-      <a class="button button--primary gift-modal__download" href="assets/images/qr-regalos.png" download="qr-regalos.png">Guardar QR</a>
+      <div class="gift-account" id="gift-modal-description">
+        <h3>Cuenta de los Novios</h3>
+        <dl>
+          <div><dt>Banco:</dt><dd>BNF</dd></div>
+          <div class="gift-account__alias"><dt>Alias:</dt><dd>Luzcubilla72@gmail.com</dd></div>
+        </dl>
+      </div>
+      <button class="button button--primary gift-account__copy" type="button" data-copy-alias>Copiar alias</button>
+      <p class="gift-account__confirmation" data-copy-confirmation aria-live="polite" role="status"></p>
     </div>
   </div>
 </body>
