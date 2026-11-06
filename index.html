@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#faf8f4">
+  <meta name="description" content="Invitación de boda de Francisco Rodrigo Aquino y Luz Mabel Cubilla.">
+  <meta property="og:title" content="Rodrigo & Luz | Nos casamos">
+  <meta property="og:description" content="Domingo 15 de noviembre de 2026">
+  <meta property="og:type" content="website">
+  <title>Rodrigo & Luz | Nos casamos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/config.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <div class="welcome-screen" data-welcome-screen>
+    <div class="welcome-screen__petals" aria-hidden="true"></div>
+    <div class="opening-burst" data-opening-burst aria-hidden="true"></div>
+    <div class="welcome-screen__content">
+      <p class="section-kicker">Una invitación especial</p>
+      <p class="script">Rodrigo <span>&amp;</span> Luz</p>
+      <p class="welcome-screen__message">Les invitamos cordialmente<br>a nuestra boda.</p>
+      <p class="welcome-screen__date">15 · 11 · 2026</p>
+      <button class="button button--primary welcome-screen__button" type="button" data-open-invitation>Abrir invitación</button>
+    </div>
+  </div>
+  <div class="petal-layer" data-petal-layer aria-hidden="true"></div>
+  <div class="page-shell">
+    <header class="hero" id="inicio">
+      <div class="botanical botanical--top" aria-hidden="true"></div>
+      <div class="botanical botanical--bottom" aria-hidden="true"></div>
+      <div class="hero__content reveal">
+        <p class="eyebrow">Una historia de amor</p>
+        <div class="champagne" aria-hidden="true"><span>♧</span><span>♧</span></div>
+        <p class="script hero__welcome">¡Nos casamos!</p>
+        <h1><span data-bridegroom>Francisco Rodrigo Aquino</span><em>&amp;</em><span data-bride>Luz Mabel Cubilla</span></h1>
+        <div class="ornament" aria-hidden="true"><i></i><b>✦</b><i></i></div>
+        <p class="hero__date" data-wedding-date>Domingo 15 de noviembre de 2026</p>
+        <a class="scroll-cue" href="#historia" aria-label="Ver invitación"><span></span>deslizá para descubrir</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="intro section reveal" id="historia">
+        <p class="section-kicker">Nuestro gran día</p>
+        <h2>Hay momentos que<br><span>merecen ser compartidos</span></h2>
+        <div class="rule" aria-hidden="true"></div>
+        <p class="intro__copy">Con mucha alegría queremos compartir contigo uno de los momentos más especiales de nuestras vidas. Tu presencia hará que este día sea aún más inolvidable.</p>
+      </section>
+
+      <section class="gallery section reveal" id="galeria" aria-labelledby="gallery-title">
+        <div class="section-heading"><p class="section-kicker">Nuestros recuerdos</p><h2 id="gallery-title">Un amor para guardar</h2><p class="heading-note">Cada instante nos acerca a este día.</p></div>
+        <div class="gallery__stage" data-gallery aria-live="polite">
+          <div class="gallery__track" data-gallery-track>
+            <figure class="gallery__slide is-active"><img src="assets/images/historia-1.jpg" alt="Rodrigo y Luz, un recuerdo de su historia" loading="lazy"></figure>
+            <figure class="gallery__slide"><img src="assets/images/historia-2.jpg" alt="Un momento especial de Rodrigo y Luz" loading="lazy"></figure>
+            <figure class="gallery__slide"><img src="assets/images/historia-3.jpg" alt="Rodrigo y Luz celebrando su amor" loading="lazy"></figure>
+            <figure class="gallery__slide"><img src="assets/images/historia-4.jpg" alt="Un recuerdo compartido por la pareja" loading="lazy"></figure>
+            <figure class="gallery__slide"><img src="assets/images/historia-5.jpg" alt="Rodrigo y Luz, juntos antes de su boda" loading="lazy"></figure>
+          </div>
+          <button class="gallery__arrow gallery__arrow--prev" type="button" data-gallery-prev aria-label="Fotografía anterior">‹</button>
+          <button class="gallery__arrow gallery__arrow--next" type="button" data-gallery-next aria-label="Fotografía siguiente">›</button>
+        </div>
+        <div class="gallery__dots" data-gallery-dots></div>
+      </section>
+
+      <section class="events section" id="celebracion">
+        <div class="section-heading reveal"><p class="section-kicker">La celebración</p><h2>Te esperamos</h2><p class="heading-note">Dos momentos, un mismo amor para celebrar.</p></div>
+        <div class="event-grid">
+          <article class="event-card reveal">
+            <div class="event-icon church-icon" aria-hidden="true"><span>⌂</span></div>
+            <p class="section-kicker">Primero</p><h3>Ceremonia religiosa</h3><p class="event-time">16:00 <small>hs.</small></p>
+            <p class="event-note">Acompañanos a recibir la bendición de nuestro amor.</p>
+            <a class="button button--outline location-link" data-location="ceremony" href="#ubicacion-ceremonia">Ver ubicación</a>
+            <p class="location-status" data-location-status="ceremony" hidden>Ubicación pendiente de confirmar.</p>
+          </article>
+          <article class="event-card reveal">
+            <div class="event-icon glasses-icon" aria-hidden="true"><span>♢</span><span>♢</span></div>
+            <p class="section-kicker">Después</p><h3>Recepción</h3><p class="event-time">18:00 <small>hs.</small></p>
+            <p class="event-note">Celebremos juntos este nuevo capítulo de nuestra historia.</p>
+            <a class="button button--outline location-link" data-location="reception" href="#ubicacion-recepcion">Ver ubicación</a>
+            <p class="location-status" data-location-status="reception" hidden>Ubicación pendiente de confirmar.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="countdown-section section reveal" aria-labelledby="countdown-title">
+        <div class="countdown-card"><p class="section-kicker">La cuenta regresiva</p><h2 id="countdown-title">Falta poquito</h2>
+          <div class="countdown" data-countdown><div><strong data-unit="days">00</strong><span>días</span></div><i>:</i><div><strong data-unit="hours">00</strong><span>horas</span></div><i>:</i><div><strong data-unit="minutes">00</strong><span>minutos</span></div><i>:</i><div><strong data-unit="seconds">00</strong><span>segundos</span></div></div>
+          <p class="countdown-message" data-countdown-message hidden>¡Llegó nuestro gran día!</p>
+        </div>
+      </section>
+
+      <section class="calendar-section section reveal" aria-labelledby="calendar-title">
+        <div class="calendar-card">
+          <p class="section-kicker">Un día para recordar</p>
+          <h2 id="calendar-title">Reservá esta fecha</h2>
+          <p class="calendar-date">Domingo 15 de noviembre de 2026</p>
+          <div class="calendar" aria-label="Calendario de noviembre de 2026">
+            <div class="calendar__weekdays" aria-hidden="true"><span>Dom</span><span>Lun</span><span>Mar</span><span>Mié</span><span>Jue</span><span>Vie</span><span>Sáb</span></div>
+            <div class="calendar__days">
+              <span class="calendar__day">1</span><span class="calendar__day">2</span><span class="calendar__day">3</span><span class="calendar__day">4</span><span class="calendar__day">5</span><span class="calendar__day">6</span><span class="calendar__day">7</span>
+              <span class="calendar__day">8</span><span class="calendar__day">9</span><span class="calendar__day">10</span><span class="calendar__day">11</span><span class="calendar__day">12</span><span class="calendar__day">13</span><span class="calendar__day">14</span>
+              <span class="calendar__day calendar__day--highlight"><b>15</b><i>♥</i></span><span class="calendar__day">16</span><span class="calendar__day">17</span><span class="calendar__day">18</span><span class="calendar__day">19</span><span class="calendar__day">20</span><span class="calendar__day">21</span>
+              <span class="calendar__day">22</span><span class="calendar__day">23</span><span class="calendar__day">24</span><span class="calendar__day">25</span><span class="calendar__day">26</span><span class="calendar__day">27</span><span class="calendar__day">28</span>
+              <span class="calendar__day">29</span><span class="calendar__day">30</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="rsvp section reveal" id="confirmacion">
+        <div class="rsvp__flower" aria-hidden="true">✿</div><p class="section-kicker">Tu presencia es nuestro regalo</p><h2>Confirmá tu asistencia</h2>
+        <p>Por favor, confirmá tu presencia hasta el jueves 12 de noviembre.</p>
+        <a class="button button--primary" data-whatsapp href="#confirmacion">Confirmar asistencia</a>
+        <div class="video-share">
+          <div class="video-share__icon" aria-hidden="true">◉</div>
+          <h3>Dejanos un recuerdo especial ❤️</h3>
+          <p>¿Querés dedicarles unas palabras a los novios? Grabá un video con tus mejores deseos y compartilo con nosotros. ¡Será un recuerdo inolvidable!</p>
+          <a class="button button--primary" data-video-whatsapp href="#confirmacion">Enviar mi video por WhatsApp</a>
+        </div>
+      </section>
+
+      <section class="closing section reveal"><div class="closing__line"></div><p class="script">¡Te esperamos!</p><h2>para celebrar<br>nuestro amor</h2><div class="closing__mark" aria-hidden="true">❦</div><p class="closing__signature">Con cariño,<br><strong>Rodrigo &amp; Luz</strong></p></section>
+    </main>
+    <footer><p>Francisco Rodrigo Aquino <span>·</span> Luz Mabel Cubilla</p><a href="#inicio">volver arriba ↑</a></footer>
+  </div>
+  <button class="music-toggle" type="button" data-music-toggle aria-label="Activar música" aria-pressed="false"><span class="music-bars" aria-hidden="true"><i></i><i></i><i></i></span><span data-music-label>Música</span></button>
+  <audio data-audio preload="none" loop></audio>
+</body>
+</html>

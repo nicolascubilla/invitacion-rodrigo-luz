@@ -1,0 +1,6 @@
+*.mp3
+!assets/audio/que-te-quiero.mp3
+*.wav
+*.ogg
+.DS_Store
+Thumbs.db
